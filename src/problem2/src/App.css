@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --animate-wave: animation_wave 6s ease-in-out 1s infinite alternate;
+
+  @keyframes animation_wave {
+    from {
+      transform: translateX(-50%) skew(0deg, -10deg);
+    }
+    to {
+      transform: translateX(-30%) skew(10deg, -5deg);
+    }
+  }
+}
+
+body {
+  font-family: 'Noto Sans', serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: 'wdth' 100;
+  color: #2e3c57;
+}
