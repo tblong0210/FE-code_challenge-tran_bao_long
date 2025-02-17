@@ -26,6 +26,8 @@ The following scripts are defined in the `package.json` file:
 
 ## Steps to Run the Project
 
+Before running the project, ensure you are in the `src/problem2` directory in your terminal.
+
 1. **Install Dependencies**  
    Make sure all dependencies are installed by running:
 
